@@ -1,0 +1,19 @@
+
+/* Class = "UILabel"; text = "ou"; ObjectID = "0m0-q2-94n"; */
+"or" = "ou";
+
+/* Class = "UILabel"; text = "Cadastro"; ObjectID = "4en-nH-qYS"; */
+"4en-nH-qYS.text" = "Cadastro";
+
+/* Class = "UILabel"; text = "Logar com"; ObjectID = "KA4-Ve-yek"; */
+"Sign in With" = "Logar com";
+
+/* Class = "UIButton"; normalTitle = "google+"; ObjectID = "ZRP-ZN-2Yx"; */
+"ZRP-ZN-2Yx.normalTitle" = "google+";
+
+/* Class = "UIButton"; normalTitle = "facebook"; ObjectID = "tdw-pj-AYu"; */
+"tdw-pj-AYu.normalTitle" = "facebook";
+
+"Create account" = "Criar Conta";
+
+"XLFormViewController_ValidationErrorTitle" = "Erro";

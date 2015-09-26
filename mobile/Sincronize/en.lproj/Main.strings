@@ -1,0 +1,26 @@
+
+/* Class = "UILabel"; text = "ou"; ObjectID = "0m0-q2-94n"; */
+"0m0-q2-94n.text" = "ou";
+
+/* Class = "UILabel"; text = "Cadastro"; ObjectID = "4en-nH-qYS"; */
+"4en-nH-qYS.text" = "Cadastro";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Jnv-JN-BQw"; */
+"Jnv-JN-BQw.title" = "Item";
+
+/* Class = "UILabel"; text = "Logar com"; ObjectID = "KA4-Ve-yek"; */
+"KA4-Ve-yek.text" = "Logar com";
+
+/* Class = "UIButton"; normalTitle = "Já cadastrado? Entre agora!"; ObjectID = "Uhd-pz-V1c"; */
+"Uhd-pz-V1c.normalTitle" = "Já cadastrado? Entre agora!";
+
+/* Class = "UIButton"; normalTitle = "google+"; ObjectID = "ZRP-ZN-2Yx"; */
+"ZRP-ZN-2Yx.normalTitle" = "google+";
+
+/* Class = "UIButton"; normalTitle = "facebook"; ObjectID = "tdw-pj-AYu"; */
+"tdw-pj-AYu.normalTitle" = "facebook";
+
+" can't be empty" = " não pode ser Vazio.";
+
+"can't be empty" = " não pode ser Vazio.";
+"XLFormViewController_ValidationErrorTitle" = "Erro";

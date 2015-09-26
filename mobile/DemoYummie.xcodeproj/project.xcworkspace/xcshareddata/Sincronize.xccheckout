@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A0057599-E010-47BF-BB62-43592FE10938</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sincronize</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>25e7f9e4-fe16-4a7e-8afc-17cc924454ef</key>
+		<string>https://bitbucket.org/halakaluf/updateme.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Mobile/IOS/Sincronize/Sincronize.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>25e7f9e4-fe16-4a7e-8afc-17cc924454ef</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/halakaluf/updateme.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>25e7f9e4-fe16-4a7e-8afc-17cc924454ef</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>25e7f9e4-fe16-4a7e-8afc-17cc924454ef</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UpdateMe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
