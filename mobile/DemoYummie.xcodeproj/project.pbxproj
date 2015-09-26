@@ -116,10 +116,12 @@
 
 /* Begin PBXFileReference section */
 		291BA0DAB3135AF897BF0150 /* Pods-Sincronize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sincronize.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sincronize/Pods-Sincronize.release.xcconfig"; sourceTree = "<group>"; };
+		3306784A28D8677BC0FAD692 /* Pods-DemoYummie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoYummie.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoYummie/Pods-DemoYummie.release.xcconfig"; sourceTree = "<group>"; };
 		33203DF11B7048FD00C07C49 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		33203DF21B7048FD00C07C49 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		44735FE54DC2344A90E25FCF /* libPods-DemoYummie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoYummie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		568F07A12506215629B1326D /* Pods-Sincronize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sincronize.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sincronize/Pods-Sincronize.debug.xcconfig"; sourceTree = "<group>"; };
+		657EB5471DCBBADEEC1618A3 /* Pods-DemoYummie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoYummie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoYummie/Pods-DemoYummie.debug.xcconfig"; sourceTree = "<group>"; };
 		92134FE61AF8667F00786117 /* DemoYummie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoYummie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92134FEA1AF8667F00786117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92134FEB1AF8667F00786117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -281,6 +283,8 @@
 			children = (
 				568F07A12506215629B1326D /* Pods-Sincronize.debug.xcconfig */,
 				291BA0DAB3135AF897BF0150 /* Pods-Sincronize.release.xcconfig */,
+				657EB5471DCBBADEEC1618A3 /* Pods-DemoYummie.debug.xcconfig */,
+				3306784A28D8677BC0FAD692 /* Pods-DemoYummie.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -943,7 +947,7 @@
 		};
 		9213500D1AF8667F00786117 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 568F07A12506215629B1326D /* Pods-Sincronize.debug.xcconfig */;
+			baseConfigurationReference = 657EB5471DCBBADEEC1618A3 /* Pods-DemoYummie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -961,7 +965,7 @@
 		};
 		9213500E1AF8667F00786117 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291BA0DAB3135AF897BF0150 /* Pods-Sincronize.release.xcconfig */;
+			baseConfigurationReference = 3306784A28D8677BC0FAD692 /* Pods-DemoYummie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
