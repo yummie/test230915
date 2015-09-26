@@ -15,7 +15,6 @@
 		92134FF81AF8667F00786117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92134FF61AF8667F00786117 /* Main.storyboard */; };
 		92134FFA1AF8667F00786117 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92134FF91AF8667F00786117 /* Images.xcassets */; };
 		92134FFD1AF8667F00786117 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92134FFB1AF8667F00786117 /* LaunchScreen.xib */; };
-		921350091AF8667F00786117 /* DemoYummieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921350081AF8667F00786117 /* DemoYummieTests.m */; };
 		92169D3E1B79181C0052FEE4 /* modal_load@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92169D3D1B79181C0052FEE4 /* modal_load@2x.png */; };
 		92169DB91B7998420052FEE4 /* l_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 92169D9B1B7998420052FEE4 /* l_0.png */; };
 		92169DBA1B7998420052FEE4 /* l_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 92169D9C1B7998420052FEE4 /* l_1.png */; };
@@ -104,16 +103,6 @@
 		D274F26066BE01BBE803249D /* libPods-DemoYummie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44735FE54DC2344A90E25FCF /* libPods-DemoYummie.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		921350031AF8667F00786117 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92134FDE1AF8667F00786117 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92134FE51AF8667F00786117;
-			remoteInfo = Sincronize;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		291BA0DAB3135AF897BF0150 /* Pods-Sincronize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sincronize.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sincronize/Pods-Sincronize.release.xcconfig"; sourceTree = "<group>"; };
 		3306784A28D8677BC0FAD692 /* Pods-DemoYummie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoYummie.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoYummie/Pods-DemoYummie.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +120,6 @@
 		92134FF71AF8667F00786117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92134FF91AF8667F00786117 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92134FFC1AF8667F00786117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		921350021AF8667F00786117 /* DemoYummieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoYummieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		921350071AF8667F00786117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		921350081AF8667F00786117 /* DemoYummieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoYummieTests.m; sourceTree = "<group>"; };
 		92169D3D1B79181C0052FEE4 /* modal_load@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "modal_load@2x.png"; sourceTree = "<group>"; };
@@ -268,13 +256,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92134FFF1AF8667F00786117 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -304,7 +285,6 @@
 			isa = PBXGroup;
 			children = (
 				92134FE61AF8667F00786117 /* DemoYummie.app */,
-				921350021AF8667F00786117 /* DemoYummieTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -631,24 +611,6 @@
 			productReference = 92134FE61AF8667F00786117 /* DemoYummie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		921350011AF8667F00786117 /* DemoYummieTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9213500F1AF8667F00786117 /* Build configuration list for PBXNativeTarget "DemoYummieTests" */;
-			buildPhases = (
-				92134FFE1AF8667F00786117 /* Sources */,
-				92134FFF1AF8667F00786117 /* Frameworks */,
-				921350001AF8667F00786117 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				921350041AF8667F00786117 /* PBXTargetDependency */,
-			);
-			name = DemoYummieTests;
-			productName = SincronizeTests;
-			productReference = 921350021AF8667F00786117 /* DemoYummieTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -661,10 +623,6 @@
 					92134FE51AF8667F00786117 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = ZHR26XA8VG;
-					};
-					921350011AF8667F00786117 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 92134FE51AF8667F00786117;
 					};
 				};
 			};
@@ -682,7 +640,6 @@
 			projectRoot = "";
 			targets = (
 				92134FE51AF8667F00786117 /* DemoYummie */,
-				921350011AF8667F00786117 /* DemoYummieTests */,
 			);
 		};
 /* End PBXProject section */
@@ -746,13 +703,6 @@
 				92169DBF1B7998420052FEE4 /* l_6.png in Resources */,
 				92169DC61B7998420052FEE4 /* l_13.png in Resources */,
 				92134FFA1AF8667F00786117 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		921350001AF8667F00786117 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,23 +779,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92134FFE1AF8667F00786117 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				921350091AF8667F00786117 /* DemoYummieTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		921350041AF8667F00786117 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92134FE51AF8667F00786117 /* DemoYummie */;
-			targetProxy = 921350031AF8667F00786117 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		92134FF61AF8667F00786117 /* Main.storyboard */ = {
@@ -981,40 +915,6 @@
 			};
 			name = Release;
 		};
-		921350101AF8667F00786117 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SincronizeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = DemoYummieTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sincronize.app/Sincronize";
-			};
-			name = Debug;
-		};
-		921350111AF8667F00786117 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SincronizeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = DemoYummieTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sincronize.app/Sincronize";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1032,15 +932,6 @@
 			buildConfigurations = (
 				9213500D1AF8667F00786117 /* Debug */,
 				9213500E1AF8667F00786117 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9213500F1AF8667F00786117 /* Build configuration list for PBXNativeTarget "DemoYummieTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				921350101AF8667F00786117 /* Debug */,
-				921350111AF8667F00786117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
